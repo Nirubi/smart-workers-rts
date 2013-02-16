@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CustomScripts\Agent.cs">
+    <Files>
+      <File FileName="Assets\CustomScripts\Agent.cs" Line="31" Column="29" />
+      <File FileName="Assets\CustomScripts\SmartWorker.cs" Line="167" Column="3" />
+      <File FileName="Assets\CustomScripts\InGameGUI.cs" Line="43" Column="5" />
+      <File FileName="Assets\CustomScripts\Raycaster.cs" Line="22" Column="26" />
+      <File FileName="Assets\iThink\Actions\CraftSimpleWeapon.cs" Line="1" Column="1" />
+      <File FileName="Assets\iThink\Actions\Produce.cs" Line="1" Column="1" />
+      <File FileName="Assets\iThink\Actions\Make.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

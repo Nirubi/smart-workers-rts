@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B160D8CD-FA80-F261-6A97-32251E6B227F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_WEBPLAYER;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CustomScripts\Agent.cs" />
+     <Compile Include="Assets\CustomScripts\CameraController.cs" />
+     <Compile Include="Assets\CustomScripts\CameraFollow.cs" />
+     <Compile Include="Assets\CustomScripts\InGameGUI.cs" />
+     <Compile Include="Assets\CustomScripts\Raycaster.cs" />
+     <Compile Include="Assets\CustomScripts\SmartWorker.cs" />
+     <Compile Include="Assets\CustomScripts\WindMillRotation.cs" />
+     <Compile Include="Assets\iThink\Actions\Buy.cs" />
+     <Compile Include="Assets\iThink\Actions\CraftSimpleWeapon.cs" />
+     <Compile Include="Assets\iThink\Actions\CraftSpell.cs" />
+     <Compile Include="Assets\iThink\Actions\Get.cs" />
+     <Compile Include="Assets\iThink\Actions\Harvest.cs" />
+     <Compile Include="Assets\iThink\Actions\Hunt.cs" />
+     <Compile Include="Assets\iThink\Actions\Make.cs" />
+     <Compile Include="Assets\iThink\Actions\Produce.cs" />
+     <Compile Include="Assets\iThink\Actions\Store.cs" />
+     <Compile Include="Assets\iThink\SearchMethods\AstarFS.cs" />
+     <Compile Include="Assets\iThink\SearchMethods\AstarWeakFS.cs" />
+     <Compile Include="Assets\iThink\SearchMethods\BestFS.cs" />
+     <Compile Include="Assets\iThink\SearchMethods\BreadthFS.cs" />
+     <Compile Include="Assets\iThink\SearchMethods\DepthFS.cs" />
+     <Compile Include="Assets\iThink\SearchMethods\HeuristicDFS.cs" />
+     <Compile Include="Assets\iThink\iThinkAction.cs" />
+     <Compile Include="Assets\iThink\iThinkActionManager.cs" />
+     <Compile Include="Assets\iThink\iThinkActionSchemas.cs" />
+     <Compile Include="Assets\iThink\iThinkBrain.cs" />
+     <Compile Include="Assets\iThink\iThinkFact.cs" />
+     <Compile Include="Assets\iThink\iThinkPlan.cs" />
+     <Compile Include="Assets\iThink\iThinkPlanner.cs" />
+     <Compile Include="Assets\iThink\iThinkSensorySystem.cs" />
+     <Compile Include="Assets\iThink\iThinkState.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\skybox info.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Alex95 Texture Pack 1\Readme.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{0A11AB07-A700-D585-0A77-FDE27DB352D6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{F474B1AE-730A-C8A5-D2AD-DFEC877D5F96}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
